@@ -1,5 +1,5 @@
-
-public class simpleInterest {
+//This program show simple interest
+public class simpleInterest { // class name
         private double principal;
         private double annualRate;
         private int years;
