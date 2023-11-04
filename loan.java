@@ -1,10 +1,11 @@
-public class loan {
+//This program show simple interest
+public class loan { //class declaration
     private double principal;
     private double annualRate;
     private int years;
     private int monthsPerYear;
 
-    public loan(double principal, double annualRate, int years, int monthsPerYear) {
+    public loan(double principal, double annualRate, int years, int monthsPerYear) { // create method declaration
         this.principal = principal;
         this.annualRate = annualRate;
         this.years = years;
