@@ -1,5 +1,5 @@
-//This program show simple interest
-public class loan { //class declaration
+//This program show compound interest
+public class compound interest { //class declaration
     private double principal;
     private double annualRate;
     private int years;
@@ -25,9 +25,9 @@ public class loan { //class declaration
         int years = 3;              // Number of years
         int monthsPerYear = 12;     // Monthly compounding
 
-        loan loan = new loan(principal, annualRate, years, monthsPerYear);
+        compound interest = new compound interest(principal, annualRate, years, monthsPerYear);
         double totalPayment = loan.calculateTotalPayment();
 
-        System.out.println("Total Payment after " + years + " years with compound interest: " + totalPayment + " RWF");
+        System.out.println("Total Payment after " + years + " years with compound interest: " + totalPayment + " RWF");//This is output
     }
 }
