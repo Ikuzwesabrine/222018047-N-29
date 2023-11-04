@@ -1,3 +1,5 @@
+//This program show add of two number
+
 public class Start {
     public static void main(String args[]){
         int a=10;
@@ -5,7 +7,7 @@ public class Start {
         System.out.println(a++ + ++a);//10+12=22
         System.out.println(b++ +b++);//10+11=21
 
-        //unary operator
+        //variable initialization
         int a=10;
         int b=5;
         System.out.println(a+b);//15
