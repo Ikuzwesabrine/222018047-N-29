@@ -1,7 +1,9 @@
-public class switchcase {
+// This program show switchcase
+public class switchcase {// class name
     public static void main(String[] args){
         int day = 4;
         switch(day){
+              // This is output
             case 1:
               System.out.println("monday");
               break;
